@@ -23,34 +23,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={pooja}
-              isBlog={false}
-              title="WeatherApp"
-              description="Real-time Weather Updates: MyWeatherApp offers real-time weather updates, 
-              including temperature, humidity, wind speed, precipitation, and more. 
-              Users can view current weather conditions and get hourly, daily, and extended forecasts.
-              Customizable Locations: Users can add and save multiple locations to track weather 
-              conditions in different areas. MyWeatherApp provides weather forecasts for locations worldwide, 
-              allowing users to stay informed about the weather in their desired locations."
-              ghLink="https://github.com/amarupd/weatherapp"
-              demoLink="https://youtu.be/J9rzf2QzBtw"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={QUEUES}
-              isBlog={false}
-              title="Scramble Game"
-              description="Scramble offers a fun and addictive gameplay experience. Players are typically given a time limit to create as many words as possible from a given set of letters. The longer and more complex the words formed, the higher the score. It requires quick thinking and a strong command of vocabulary to succeed.
-              The game often provides a grid or a list of all possible words that can be formed from the given set of letters. This helps players keep track of their progress and discover words they might have missed. Additionally, some versions of Scramble offer power-ups or bonuses that can be used to gain advantages, such as extra time or hints."
-              ghLink="https://github.com/amarupd/scramble-game"
-              demoLink="https://youtu.be/30A6Wd8515A"
-            />
-          </Col>
-
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={hubnex}
@@ -89,6 +62,33 @@ function Projects() {
               🟡 ChatEngine.io: The backbone of our chat application, ChatEngine.io handles the complexities of real-time messaging and message storage. It ensures a reliable and secure communication platform.`}
               ghLink="https://github.com/amarupd/real-time-chat-webApp"
               demoLink="https://github.com/amarupd/real-time-chat-webApp"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pooja}
+              isBlog={false}
+              title="WeatherApp"
+              description="Real-time Weather Updates: MyWeatherApp offers real-time weather updates, 
+              including temperature, humidity, wind speed, precipitation, and more. 
+              Users can view current weather conditions and get hourly, daily, and extended forecasts.
+              Customizable Locations: Users can add and save multiple locations to track weather 
+              conditions in different areas. MyWeatherApp provides weather forecasts for locations worldwide, 
+              allowing users to stay informed about the weather in their desired locations."
+              ghLink="https://github.com/amarupd/weatherapp"
+              demoLink="https://youtu.be/J9rzf2QzBtw"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={QUEUES}
+              isBlog={false}
+              title="Scramble Game"
+              description="Scramble offers a fun and addictive gameplay experience. Players are typically given a time limit to create as many words as possible from a given set of letters. The longer and more complex the words formed, the higher the score. It requires quick thinking and a strong command of vocabulary to succeed.
+              The game often provides a grid or a list of all possible words that can be formed from the given set of letters. This helps players keep track of their progress and discover words they might have missed. Additionally, some versions of Scramble offer power-ups or bonuses that can be used to gain advantages, such as extra time or hints."
+              ghLink="https://github.com/amarupd/scramble-game"
+              demoLink="https://youtu.be/30A6Wd8515A"
             />
           </Col>
         </Row>
