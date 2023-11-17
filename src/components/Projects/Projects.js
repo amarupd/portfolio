@@ -27,7 +27,7 @@ function Projects() {
             <ProjectCard
               imgPath={pooja}
               isBlog={false}
-              title="WeatherApp Project"
+              title="WeatherApp"
               description="Real-time Weather Updates: MyWeatherApp offers real-time weather updates, 
               including temperature, humidity, wind speed, precipitation, and more. 
               Users can view current weather conditions and get hourly, daily, and extended forecasts.
@@ -82,7 +82,7 @@ function Projects() {
             <ProjectCard
               imgPath={chatApp}
               isBlog={false}
-              title="Management Information System"
+              title="Chat Application"
               description={`Welcome to our Chat Application, a modern and efficient platform for real-time communication, built using ReactJS and Node.js. Our chat application leverages the power of ChatEngine.io to handle real-time messaging and message storage, providing a seamless and interactive chatting experience.\n
               🟡 ReactJS: The frontend of our application is built using ReactJS, a powerful JavaScript library for building user interfaces. React provides a responsive and dynamic environment for an enhanced user experience.
               🟡 Node.js: Our backend is powered by Node.js, offering a scalable and efficient server-side environment. Node.js enables seamless communication between the frontend and ChatEngine.io.
