@@ -29,10 +29,8 @@ function Projects() {
               imgPath={hubnex}
               isBlog={false}
               title="MyMaster11"
-              description="MyMaster11 is India's fastest-growing fantasy sports platform with 1million+ users playing fantasy cricket, basketball,football,kabaddi & baseball
-              Managing backend using Nodejs Expressjs and sequelize with MYSQL
-              Creating API's for interaction with the frontend GUI
-              Working with the team"
+              description="MyMaster11 is considered as a “Game of Skill.” The game of skills can be defined as a game wherein the skills of the individuals participating in any online fantasy sports gaming play a dominant role rather than the mere luck of the individuals. The individuals in game of skills use their knowledge, skills, training and attention for participation and winning.
+              MyMaster11 is completely legal as it offers services, Fun Features, Program(s) and Contest(s) related to fantasy cricket, fantasy football, fantasy kabaddi, fantasy volleyball, fantasy basketball & fantasy hockey. The services, contest(s) and program(s) related to online fantasy sports gaming offered by MyMaster11 enables its users to create their own team prior the match begins and then the teams are awarded points on the basis of the real-life performance of the players chosen by the users in the team. The individual whose team scores the highest aggregate of points is announced as the winner. The formation of team by the users of MyMaster11 is entirely dependent on the skills, knowledge and attention of the users which makes online fantasy sports gaming offered at MyMaster11 a game of skills and 100% legal."
               ghLink="https://mymaster11.com/"
               demoLink=" https://mymaster11.com/?invite_code=BOND0007 "
             />
