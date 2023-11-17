@@ -69,9 +69,9 @@ function Projects() {
               isBlog={false}
               title="Management Information System"
               description="Our MIS is built on a robust technology stack:
-              Backend/APIs: Leveraging the versatility of Node.js, we have developed a secure and scalable backend to handle the core functionalities of the system. Our APIs provide seamless communication between the database and the user interface, ensuring a smooth user experience.
-              Frontend/UI: The user interface is developed using React.js, a cutting-edge JavaScript library known for its flexibility and responsiveness. This ensures that our MIS is not only powerful but also user-friendly, offering an intuitive and engaging experience for our users.
-              Database: We have chosen Microsoft SQL Server (MSSQL) as the database management system to store and manage your data. MSSQL provides a reliable and efficient solution for handling the complexities of your business information."
+              ⚫ Backend/APIs: Leveraging the versatility of Node.js, we have developed a secure and scalable backend to handle the core functionalities of the system. Our APIs provide seamless communication between the database and the user interface, ensuring a smooth user experience.
+              ⚫ Frontend/UI: The user interface is developed using React.js, a cutting-edge JavaScript library known for its flexibility and responsiveness. This ensures that our MIS is not only powerful but also user-friendly, offering an intuitive and engaging experience for our users.
+              ⚫ Database: We have chosen Microsoft SQL Server (MSSQL) as the database management system to store and manage your data. MSSQL provides a reliable and efficient solution for handling the complexities of your business information."
               ghLink="https://sidtech.vercel.app/"
               demoLink="https://sidtech.vercel.app/"
             />
