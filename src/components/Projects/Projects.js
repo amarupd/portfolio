@@ -1,6 +1,11 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import chatApp from "../../Assets/Projects/chatapp.png";
+import expense from "../../Assets/Projects/expense.jpg";
+import notes from "../../Assets/Projects/notes.jpg";
+import todo from "../../Assets/Projects/todo.jpg";
+
+
 import hubnex from "../../Assets/Projects/mymaster11.png";
 import QUEUES from "../../Assets/Projects/scramble.png";
 import sidtech from "../../Assets/Projects/sidtech.png";
@@ -60,6 +65,48 @@ function Projects() {
               🟡 ChatEngine.io: The backbone of our chat application, ChatEngine.io handles the complexities of real-time messaging and message storage. It ensures a reliable and secure communication platform.`}
               ghLink="https://github.com/amarupd/real-time-chat-webApp"
               demoLink="https://github.com/amarupd/real-time-chat-webApp"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={notes}
+              isBlog={false}
+              title="Create Notes"
+              description={`User-Friendly Interface: Navigate through your notes with ease using our clean and intuitive design.
+              Versatile Note Creation: Create notes in various formats, including text, checklists, images, and more, to suit your diverse note-taking needs.
+              Organization and Tags: Keep your notes structured with folders, tags, and categories, making it simple to find the information you need when you need it.
+              Sync Across Devices: Access your notes from anywhere with our seamless synchronization across web and mobile platforms.
+              Collaboration: Share your notes with collaborators for enhanced teamwork and project coordination.`}
+              ghLink="https://github.com/amarupd/ToDoList"
+              demoLink="https://todo-list-expensecalculator.vercel.app/note"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={todo}
+              isBlog={false}
+              title="ToDo List"
+              description={`Intuitive Interface: Our clean and intuitive design ensures a seamless and enjoyable task management experience.
+              Flexible Task Creation: Easily add, edit, and delete tasks to tailor your to-do list to your unique needs.
+              Prioritization: Prioritize your tasks with customizable labels, due dates, and importance markers, helping you focus on what matters most.
+              Collaboration: Share and collaborate on tasks with friends, family, or colleagues, making teamwork and project management a breeze.
+              Reminders and Notifications: Stay on track with timely reminders and notifications, so you never miss an important deadline.`}
+              ghLink="https://github.com/amarupd/ToDoList"
+              demoLink="https://todo-list-expensecalculator.vercel.app/note"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={expense}
+              isBlog={false}
+              title="Expense Tracker"
+              description={`Intuitive Expense Tracking: Easily log your expenses and categorize them for a comprehensive overview of your spending habits.
+              Budget Planning: Set personalized budgets for different categories and receive real-time insights into your spending against your financial goals.
+              Visual Analytics: Access clear and insightful visualizations, charts, and graphs to understand your financial patterns and make informed decisions.
+              Multi-Currency Support: Perfect for travelers or those dealing with multiple currencies, our app supports seamless conversion and tracking.`}
+              ghLink="https://github.com/amarupd/ToDoList"
+              demoLink="https://todo-list-expensecalculator.vercel.app/expense-tracker"
             />
           </Col>
           <Col md={4} className="project-card">
