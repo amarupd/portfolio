@@ -1,10 +1,12 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
-import pooja from "../../Assets/Projects/weather.png";
-import QUEUES from "../../Assets/Projects/scramble.png";
+import { Col, Container, Row } from "react-bootstrap";
 import hubnex from "../../Assets/Projects/mymaster11.png";
+import QUEUES from "../../Assets/Projects/scramble.png";
+import sidtech from "../../Assets/Projects/sidtech.png";
+import pooja from "../../Assets/Projects/weather.png";
+import Particle from "../Particle";
+import ProjectCard from "./ProjectCards";
+
 // import foodorder from "../../Assets/Projects/food-order.png";
 
 function Projects() {
@@ -58,6 +60,20 @@ function Projects() {
               Working with the team"
               ghLink="https://mymaster11.com/"
               demoLink=" https://mymaster11.com/?invite_code=BOND0007 "
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={sidtech}
+              isBlog={false}
+              title="Management Information System"
+              description="Our MIS is built on a robust technology stack:
+              Backend/APIs: Leveraging the versatility of Node.js, we have developed a secure and scalable backend to handle the core functionalities of the system. Our APIs provide seamless communication between the database and the user interface, ensuring a smooth user experience.
+              Frontend/UI: The user interface is developed using React.js, a cutting-edge JavaScript library known for its flexibility and responsiveness. This ensures that our MIS is not only powerful but also user-friendly, offering an intuitive and engaging experience for our users.
+              Database: We have chosen Microsoft SQL Server (MSSQL) as the database management system to store and manage your data. MSSQL provides a reliable and efficient solution for handling the complexities of your business information."
+              ghLink="https://sidtech.vercel.app/"
+              demoLink="https://sidtech.vercel.app/"
             />
           </Col>
         </Row>
