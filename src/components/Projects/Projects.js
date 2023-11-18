@@ -61,10 +61,10 @@ function Projects() {
               isBlog={false}
               title="Chat Application"
               description={
-                <>Welcome to our Chat Application, a modern and efficient platform for real-time communication, built using ReactJS and Node.js. Our chat application leverages the power of ChatEngine.io to handle real-time messaging and message storage, providing a seamless and interactive chatting experience.<br/>
+                <>Chat Application is built using ReactJS and Node.js. My chat application leverages the power of ChatEngine.io to handle real-time messaging and message storage.<br/>
               🟡 ReactJS: The frontend of our application is built using ReactJS, a powerful JavaScript library for building user interfaces. React provides a responsive and dynamic environment for an enhanced user experience.<br/>
               🟡 Node.js: Our backend is powered by Node.js, offering a scalable and efficient server-side environment. Node.js enables seamless communication between the frontend and ChatEngine.io.<br/>
-              🟡 ChatEngine.io: The backbone of our chat application, ChatEngine.io handles the complexities of real-time messaging and message storage. It ensures a reliable and secure communication platform.`</>}
+              🟡 ChatEngine.io: The backbone of our chat application, ChatEngine.io handles the complexities of real-time messaging and message storage.</>}
               ghLink="https://github.com/amarupd/real-time-chat-webApp"
               demoLink="https://github.com/amarupd/real-time-chat-webApp"
             />
