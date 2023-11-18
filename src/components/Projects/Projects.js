@@ -46,10 +46,11 @@ function Projects() {
               imgPath={sidtech}
               isBlog={false}
               title="Management Information System"
-              description={`Our MIS is built on a robust technology stack:\n
-              🟡 Backend/APIs: Leveraging the versatility of Node.js, we have developed a secure and scalable backend to handle the core functionalities of the system. Our APIs provide seamless communication between the database and the user interface, ensuring a smooth user experience.\n
-              🟡 Frontend/UI: The user interface is developed using React.js, a cutting-edge JavaScript library known for its flexibility and responsiveness. This ensures that our MIS is not only powerful but also user-friendly, offering an intuitive and engaging experience for our users.\n
-              🟡 Database: We have chosen Microsoft SQL Server (MSSQL) as the database management system to store and manage your data. MSSQL provides a reliable and efficient solution for handling the complexities of your business information.`}
+              description={
+              <> Our MIS is built on a robust technology stack:{'\n'}
+              🟡 Backend/APIs: Leveraging the versatility of Node.js, we have developed a secure and scalable backend to handle the core functionalities of the system. Our APIs provide seamless communication between the database and the user interface, ensuring a smooth user experience.<br/>
+              🟡 Frontend: The user interface is developed using React.js, a cutting-edge JavaScript library known for its flexibility and responsiveness. This ensures that our MIS is not only powerful but also user-friendly, offering an intuitive and engaging experience for our users.<br/>
+              🟡 Database: We have chosen Microsoft SQL Server (MSSQL) as the database management system to store and manage your data. MSSQL provides a reliable and efficient solution for handling the complexities of your business information.</>}
               ghLink="https://sidtech.vercel.app/"
               demoLink="https://sidtech.vercel.app/"
             />
@@ -59,10 +60,11 @@ function Projects() {
               imgPath={chatApp}
               isBlog={false}
               title="Chat Application"
-              description={`Welcome to our Chat Application, a modern and efficient platform for real-time communication, built using ReactJS and Node.js. Our chat application leverages the power of ChatEngine.io to handle real-time messaging and message storage, providing a seamless and interactive chatting experience.\n
-              🟡 ReactJS: The frontend of our application is built using ReactJS, a powerful JavaScript library for building user interfaces. React provides a responsive and dynamic environment for an enhanced user experience.
-              🟡 Node.js: Our backend is powered by Node.js, offering a scalable and efficient server-side environment. Node.js enables seamless communication between the frontend and ChatEngine.io.
-              🟡 ChatEngine.io: The backbone of our chat application, ChatEngine.io handles the complexities of real-time messaging and message storage. It ensures a reliable and secure communication platform.`}
+              description={
+                <>Welcome to our Chat Application, a modern and efficient platform for real-time communication, built using ReactJS and Node.js. Our chat application leverages the power of ChatEngine.io to handle real-time messaging and message storage, providing a seamless and interactive chatting experience.<br/>
+              🟡 ReactJS: The frontend of our application is built using ReactJS, a powerful JavaScript library for building user interfaces. React provides a responsive and dynamic environment for an enhanced user experience.<br/>
+              🟡 Node.js: Our backend is powered by Node.js, offering a scalable and efficient server-side environment. Node.js enables seamless communication between the frontend and ChatEngine.io.<br/>
+              🟡 ChatEngine.io: The backbone of our chat application, ChatEngine.io handles the complexities of real-time messaging and message storage. It ensures a reliable and secure communication platform.`</>}
               ghLink="https://github.com/amarupd/real-time-chat-webApp"
               demoLink="https://github.com/amarupd/real-time-chat-webApp"
             />
