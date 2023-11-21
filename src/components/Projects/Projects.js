@@ -33,7 +33,7 @@ function Projects() {
             <ProjectCard
               imgPath={hubnex}
               isBlog={false}
-              title="MyMaster11"
+              title={<span className="purple">MyMaster11</span>}
               description="MyMaster11 is considered as a “Game of Skill.” The game of skills can be defined as a game wherein the skills of the individuals participating in any online fantasy sports gaming play a dominant role rather than the mere luck of the individuals. The individuals in game of skills use their knowledge, skills, training and attention for participation and winning.
               MyMaster11 is completely legal as it offers services, Fun Features, Program(s) and Contest(s) related to fantasy cricket, fantasy football, fantasy kabaddi, fantasy volleyball, fantasy basketball & fantasy hockey. The services, contest(s) and program(s) related to online fantasy sports gaming offered by MyMaster11 enables its users to create their own team prior the match begins and then the teams are awarded points on the basis of the real-life performance of the players chosen by the users in the team. The individual whose team scores the highest aggregate of points is announced as the winner. The formation of team by the users of MyMaster11 is entirely dependent on the skills, knowledge and attention of the users which makes online fantasy sports gaming offered at MyMaster11 a game of skills and 100% legal."
               ghLink="https://mymaster11.com/"
@@ -45,7 +45,7 @@ function Projects() {
             <ProjectCard
               imgPath={sidtech}
               isBlog={false}
-              title="Management Information System"
+              title={<span className="purple">Management Information System</span>}
               description={
               <> Our MIS is built on a robust technology stack:{'\n'}
               🟡 Backend/APIs: Leveraging the versatility of Node.js, we have developed a secure and scalable backend to handle the core functionalities of the system. Our APIs provide seamless communication between the database and the user interface, ensuring a smooth user experience.<br/>
@@ -59,7 +59,7 @@ function Projects() {
             <ProjectCard
               imgPath={chatApp}
               isBlog={false}
-              title="Chat Application"
+              title={<span className="purple">Chat Application</span>}
               description={
                 <>Chat Application is built using ReactJS and Node.js. My chat application leverages the power of ChatEngine.io to handle real-time messaging and message storage.<br/>
               🟡 ReactJS: The frontend of our application is built using ReactJS, a powerful JavaScript library for building user interfaces. React provides a responsive and dynamic environment for an enhanced user experience.<br/>
@@ -74,7 +74,7 @@ function Projects() {
             <ProjectCard
               imgPath={notes}
               isBlog={false}
-              title="Create Notes"
+              title={<span className="purple">Create Notes</span>}
               description={`User-Friendly Interface: Navigate through your notes with ease using our clean and intuitive design.
               Versatile Note Creation: Create notes in various formats, including text, checklists, images, and more, to suit your diverse note-taking needs.
               Organization and Tags: Keep your notes structured with folders, tags, and categories, making it simple to find the information you need when you need it.
@@ -88,7 +88,7 @@ function Projects() {
             <ProjectCard
               imgPath={todo}
               isBlog={false}
-              title="ToDo List"
+              title={<span className="purple">ToDo List</span>}
               description={`Intuitive Interface: Our clean and intuitive design ensures a seamless and enjoyable task management experience.
               Flexible Task Creation: Easily add, edit, and delete tasks to tailor your to-do list to your unique needs.
               Prioritization: Prioritize your tasks with customizable labels, due dates, and importance markers, helping you focus on what matters most.
@@ -102,7 +102,7 @@ function Projects() {
             <ProjectCard
               imgPath={expense}
               isBlog={false}
-              title="Expense Tracker"
+              title={<span className="purple">Expense Tracker</span>}
               description={`Intuitive Expense Tracking: Easily log your expenses and categorize them for a comprehensive overview of your spending habits.
               Budget Planning: Set personalized budgets for different categories and receive real-time insights into your spending against your financial goals.
               Visual Analytics: Access clear and insightful visualizations, charts, and graphs to understand your financial patterns and make informed decisions.
@@ -115,7 +115,7 @@ function Projects() {
             <ProjectCard
               imgPath={pooja}
               isBlog={false}
-              title="WeatherApp"
+              title={<span className="purple">WeatherApp</span>}
               description="Real-time Weather Updates: MyWeatherApp offers real-time weather updates, 
               including temperature, humidity, wind speed, precipitation, and more. 
               Users can view current weather conditions and get hourly, daily, and extended forecasts.
@@ -131,7 +131,7 @@ function Projects() {
             <ProjectCard
               imgPath={QUEUES}
               isBlog={false}
-              title="Scramble Game"
+              title={<span className="purple">Scramble Game</span>}
               description="Scramble offers a fun and addictive gameplay experience. Players are typically given a time limit to create as many words as possible from a given set of letters. The longer and more complex the words formed, the higher the score. It requires quick thinking and a strong command of vocabulary to succeed.
               The game often provides a grid or a list of all possible words that can be formed from the given set of letters. This helps players keep track of their progress and discover words they might have missed. Additionally, some versions of Scramble offer power-ups or bonuses that can be used to gain advantages, such as extra time or hints."
               ghLink="https://github.com/amarupd/scramble-game"
