@@ -11,7 +11,7 @@ function ProjectCards(props) {
     setShowFullDescription(!showFullDescription);
   };
 
-  const shortDescription = props.description.substring(0, 150) + '...';
+  const shortDescription = props.description.substring(0, 250) + '...';
   const descriptionToShow = showFullDescription ? props.description : shortDescription;
 
   return (
@@ -27,12 +27,12 @@ function ProjectCards(props) {
         <Card.Title>{props.title}</Card.Title>
         <Card.Text className={showFullDescription ? 'expanded-description' : ''} style={{ textAlign: "justify" }}>
           {descriptionToShow}
-          {props.description.length > 150 && (
+          {props.description.length > 250 && (
             <Button
               variant="link"
               onClick={toggleDescription}
-              className="purple"
-              style={{ marginLeft: "-10px", textDecoration: "none" }}
+              className="warning"
+              style={{ marginLeft: "-10px", textDecoration: "none" ,color: showFullDescription ? 'yellow' : 'yellow',}}
             >
               {showFullDescription ? "Read Less" : "Read More"}
             </Button>
