@@ -1,26 +1,48 @@
-import React from "react";
+import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { BsGithub } from "react-icons/bs";
 import { CgWebsite } from "react-icons/cg";
 
 function ProjectCards(props) {
+  const [showFullDescription, setShowFullDescription] = useState(false);
+
+  const toggleDescription = () => {
+    setShowFullDescription(!showFullDescription);
+  };
+
+  const shortDescription = props.description.substring(0, 150) + '...';
+  const descriptionToShow = showFullDescription ? props.description : shortDescription;
+
   return (
-    <Card className="project-card-view">
-      <Card.Img className="project-card-view-img" variant="top" src={props.imgPath} alt="card-img" style={{ opacity: 1 }}/>
+    <Card className={`project-card-view ${showFullDescription ? 'expanded-description' : ''}`}>
+      <Card.Img
+        className="project-card-view-img"
+        variant="top"
+        src={props.imgPath}
+        alt="card-img"
+        style={{ opacity: 1, borderRadius: "10px" }}
+      />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "justify" }}>
-          {props.description}
+        <Card.Text className={showFullDescription ? 'expanded-description' : ''} style={{ textAlign: "justify" }}>
+          {descriptionToShow}
+          {props.description.length > 150 && (
+            <Button
+              variant="link"
+              onClick={toggleDescription}
+              className="purple"
+              style={{ marginLeft: "-10px", textDecoration: "none" }}
+            >
+              {showFullDescription ? "Read Less" : "Read More"}
+            </Button>
+          )}
         </Card.Text>
+
         <Button variant="primary" href={props.ghLink} target="_blank">
           <BsGithub /> &nbsp;
           {props.isBlog ? "Blog" : "GitHub"}
         </Button>
-        {"\n"}
-        {"\n"}
-
-        {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
 
         {!props.isBlog && props.demoLink && (
           <Button
@@ -37,4 +59,5 @@ function ProjectCards(props) {
     </Card>
   );
 }
+
 export default ProjectCards;
