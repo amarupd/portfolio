@@ -49,6 +49,31 @@
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <h1 style="display: none;">Amar Dutt Upadhyay</h1>
   <div id="root"></div>
+
+  <script>
+    // Your IndexNow API request using JavaScript
+    const requestData = {
+      host: "www.amarduttupadhyay.in",
+      key: "d16e922d1b9e4aac9ba683e5737667a5",
+      keyLocation: "https://www.amarduttupadhyay.in/d16e922d1b9e4aac9ba683e5737667a5.txt",
+      urlList: [
+        "https://www.amarduttupadhyay.in/about",
+        "https://www.amarduttupadhyay.in/projects",
+        "https://www.amarduttupadhyay.in/resume"
+      ]
+    };
+
+    fetch("https://api.indexnow.org/IndexNow", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      body: JSON.stringify(requestData)
+    })
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .catch(error => console.error("Error:", error));
+  </script>
 </body>
 
 </html>
