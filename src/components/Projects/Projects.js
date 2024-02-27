@@ -3,7 +3,9 @@ import { Col, Container, Row } from "react-bootstrap";
 import chatApp from "../../Assets/Projects/chatapp.png";
 import expense from "../../Assets/Projects/expense.jpg";
 import notes from "../../Assets/Projects/notes.jpg";
+import opinion from "../../Assets/Projects/opinion_trading.png";
 import todo from "../../Assets/Projects/todo.jpg";
+
 
 
 import hubnex from "../../Assets/Projects/mymaster11.png";
@@ -55,7 +57,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={hubnex}
+              imgPath={opinion}
               isBlog={false}
               title={<span className="purple">Opinion Trading Implementation</span>}
               description={`At the forefront of MyMaster11's captivating offerings is its groundbreaking implementation of opinion trading, skillfully integrated into the app's framework using the agile prowess of Node.js. This innovative feature allows users to exchange insights, predictions, and analyses, enriching the strategic depth and fostering camaraderie within the community.
