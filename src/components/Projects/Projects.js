@@ -52,6 +52,20 @@ function Projects() {
               demoLink="https://sidtech.vercel.app/"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={hubnex}
+              isBlog={false}
+              title={<span className="purple">Opinion Trading Implementation</span>}
+              description={`At the forefront of MyMaster11's captivating offerings is its groundbreaking implementation of opinion trading, skillfully integrated into the app's framework using the agile prowess of Node.js. This innovative feature allows users to exchange insights, predictions, and analyses, enriching the strategic depth and fostering camaraderie within the community.
+              MyMaster11 proudly presents itself as a premier platform for online fantasy sports gaming, distinguished by its designation as a "Game of Skill." In this dynamic realm, prowess reigns supreme over chance, as participants harness their expertise, acumen, and strategic prowess to clinch victory. With an array of captivating offerings encompassing fantasy cricket, football, kabaddi, volleyball, basketball, and hockey, MyMaster11 stands as a beacon of legality and innovation. Within its digital confines, users engage with a plethora of services, fun features, programs, and contests meticulously crafted to elevate their gaming experience.
+              In essence, MyMaster11 epitomizes the convergence of legality, innovation, and skill, setting the stage for an exhilarating journey where every move is a testament to the indomitable spirit of the gaming community.`}
+              ghLink="https://mymaster11.com/"
+              demoLink=" https://mymaster11.com/?invite_code=BOND0007 "
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatApp}
