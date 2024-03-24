@@ -9,9 +9,11 @@ import {
 import Preloader from "../src/components/Pre";
 import "./App.css";
 import About from "./components/About/About";
+import Blogs from "./components/Blogs/Blogs";
 import Footer from "./components/Footer";
 import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar";
+import News from "./components/News/News";
 import Projects from "./components/Projects/Projects";
 import Resume from "./components/Resume/ResumeNew";
 import ScrollToTop from "./components/ScrollToTop";
@@ -39,7 +41,8 @@ function App() {
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="/resume" element={<Resume />} />
+          <Route path="/blogs" element={<Blogs/>} />
+          <Route path="/news" element={<News/>} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />

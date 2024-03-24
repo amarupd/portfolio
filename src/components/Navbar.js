@@ -77,6 +77,34 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
+
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/blogs"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineFundProjectionScreen
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Blogs
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/news"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineFundProjectionScreen
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                News
+              </Nav.Link>
+            </Nav.Item>
+
             <Nav.Item>
               <Nav.Link
                 as={Link}

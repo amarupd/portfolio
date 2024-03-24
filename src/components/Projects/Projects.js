@@ -2,15 +2,12 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import chatApp from "../../Assets/Projects/chatapp.png";
 import expense from "../../Assets/Projects/expense.jpg";
+import hubnex from "../../Assets/Projects/mymaster11.png";
 import notes from "../../Assets/Projects/notes.jpg";
 import opinion from "../../Assets/Projects/opinion_trading.png";
-import todo from "../../Assets/Projects/todo.jpg";
-
-
-
-import hubnex from "../../Assets/Projects/mymaster11.png";
 import QUEUES from "../../Assets/Projects/scramble.png";
 import sidtech from "../../Assets/Projects/sidtech.png";
+import todo from "../../Assets/Projects/todo.jpg";
 import pooja from "../../Assets/Projects/weather.png";
 
 import Particle from "../Particle";

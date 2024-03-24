@@ -32,7 +32,7 @@ function ProjectCards(props) {
               variant="link"
               onClick={toggleDescription}
               className="warning"
-              style={{ marginLeft: "-10px", textDecoration: "none" ,color: showFullDescription ? 'yellow' : 'yellow',}}
+              style={{ marginLeft: "-10px", textDecoration: "none" ,color: showFullDescription ? 'red' : 'yellow',}}
             >
               {showFullDescription ? "Read Less" : "Read More"}
             </Button>
