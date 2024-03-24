@@ -124,7 +124,7 @@ function News() {
                 imgPath={article.urlToImage}
                 isBlog={false}
                 title={<span className="purple">{article.title}</span>}
-                description={article.description}
+                description={article.description ? `${article.description} ${article.content || ''}` : article.content || article.title}
                 ghLink={article.url}
               />
             </Col>
