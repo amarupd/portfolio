@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import {
+  AiOutlineContacts,
   AiOutlineFundProjectionScreen,
   AiOutlineHome,
   AiOutlineUser
@@ -112,6 +113,15 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/contact"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineContacts style={{ marginBottom: "2px" }} /> Contact me
               </Nav.Link>
             </Nav.Item>
           </Nav>

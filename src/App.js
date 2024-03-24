@@ -10,6 +10,7 @@ import Preloader from "../src/components/Pre";
 import "./App.css";
 import About from "./components/About/About";
 import Blogs from "./components/Blogs/Blogs";
+import Contact from './components/Contact/Contact';
 import Footer from "./components/Footer";
 import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar";
@@ -42,6 +43,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/blogs" element={<Blogs/>} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="/news" element={<News/>} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
