@@ -18,6 +18,20 @@
         <priority>0.8</priority>
     </url>
 
+    <!-- About Me Page -->
+    <url>
+        <loc>https://www.amarduttupadhyay.in/blogs</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- About Me Page -->
+    <url>
+        <loc>https://www.amarduttupadhyay.in/news</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
     <!-- Projects Page -->
     <url>
         <loc>https://www.amarduttupadhyay.in/projects</loc>
